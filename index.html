@@ -7,6 +7,7 @@
     <meta name="description" content="Contravania-publish : ">
 
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+	<link rel="stylesheet" type="text/css" media="screen" href="stylesheets/projectpage.css">
 
     <title>Jim Comiskey's Personal Projects Page</title>
   </head>
@@ -31,23 +32,42 @@
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
-	    <h1>Contravania</h1>
-        <!-- <h3>This is the Contravania application install location.</h1> -->
-		<p>Requirements:</p>
-		<ul>
-			<li>Windows 7 or later; this should have the .NET Framework and DirectX software needed to run XNA and Contravania.</li>
-		</ul>
-		<h3>Installation instructions:</h1>		
-		<ol>
-			<li><a href="./deploy/XNAFramework4.0.msi">Install XNA Framework 4.0 </a>&nbsp;<em>(I still need to figure out how to bootstrap this into the ClickOnce manifest)</em></li>
-			<!-- <li><a href="http://contravania.azurewebsites.net/RunAndGun.application">Click here to install Contravania a/k/a RunandGun</a></li> -->
-			<li><a href="./publish/RunAndGun.application">Click here to install Contravania a/k/a RunandGun</a></li>
-			<!-- <li><a href="./deploy/Contravania.zip">Download Contravania Zip file</a></li>
-			<li>Unzip the file and run the application, RunAndGun.exe</li> -->			
-		</ol>		
-		<h1>MasterMind</h1>
-		<p>To play my little implementation of Mastermind,&nbsp;<a href="./mastermind/index.html">Go here</a></p>		
-      </section>
+		<section id="contravania" class="gameSection">			
+			<!-- <h3>This is the Contravania application install location.</h1> -->					
+			<h1>Contravania</h1>
+			<img class="screenshot" src="./images/contravania-titlescreen.png">
+			<img class="screenshot" src="./images/contravania-gameplay.png">
+			<p>My Contra/Castlevania NES crossover game, written using the XNA SDK. It is a pretty rough prototype. Contra level 1 is completable, but Contravania itself is just a sandbox demonstrating Bill Rizer wandering around the Contra level 1 maps, first two sections only.</p>
+			<p><strong>Requirements:</strong></p>
+			<ul>
+				<li>Windows 7 or later; this should have the .NET Framework and DirectX software needed to run XNA and Contravania.</li>
+			</ul>
+			<h3>Installation instructions:</h1>		
+			<ol>
+				<li><a href="./deploy/XNAFramework4.0.msi">Install XNA Framework 4.0 </a>&nbsp;<em>(I still need to figure out how to bootstrap this into the ClickOnce manifest)</em></li>
+				<!-- <li><a href="http://contravania.azurewebsites.net/RunAndGun.application">Click here to install Contravania a/k/a RunandGun</a></li> -->
+				<li><a href="./publish/RunAndGun.application">Click here to install Contravania a/k/a RunandGun</a></li>
+				<!-- <li><a href="./deploy/Contravania.zip">Download Contravania Zip file</a></li>
+				<li>Unzip the file and run the application, RunAndGun.exe</li> -->							
+			</ol>				
+			<h3>Release History:<h3>
+			<ul>
+				<li>5/28/2015 - Initial "Alpha" release of game.</li>
+				<li>Coming next:<br>
+					<ul>
+						<li>Revamp player animations, including gun recoil animation</li>
+						<li>Flying weapon drops</li>
+						<li>Snipers</li>						
+					</ul>
+				</li>
+			</ul>
+		</section>
+		<section id="mastermind" class="gameSection">
+			<h1>MasterMind</h1>
+			<p>To play my little implementation of Mastermind,&nbsp;<a href="./mastermind/index.html">Go here</a></p>
+			<a href="./mastermind/index.html"><img class="screenshot" src="./images/mastermind.png"></a>
+		</section>
+      </section>	  
     </div>
 
     <!-- FOOTER  -->
