@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
-  <asmv1:assemblyIdentity name="RunAndGun.exe" version="1.0.0.36" publicKeyToken="f334a2e222759331" language="neutral" processorArchitecture="x86" type="win32" />
+  <asmv1:assemblyIdentity name="RunAndGun.exe" version="1.0.0.36" publicKeyToken="0abf08fbf96dc7ef" language="neutral" processorArchitecture="x86" type="win32" />
   <description asmv2:iconFile="Resources\Game.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="RunAndGun" version="1.0.0.0" publicKeyToken="F27FB4264984CFA8" language="neutral" processorArchitecture="x86" />
+    <assemblyIdentity name="RunAndGun" version="1.0.0.0" publicKeyToken="464768A099146558" language="neutral" processorArchitecture="x86" />
     <commandLine file="RunAndGun.exe" parameters="" />
   </entryPoint>
   <trustInfo>
@@ -93,36 +93,72 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="RunAndGun.exe" size="70592">
-      <assemblyIdentity name="RunAndGun" version="1.0.0.0" publicKeyToken="F27FB4264984CFA8" language="neutral" processorArchitecture="x86" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="OpenTK.dll" size="3996160">
+      <assemblyIdentity name="OpenTK" version="1.1.0.0" publicKeyToken="BAD199FE84EB3DF4" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>5d3i+8d4OWbAHIvTxerobslR0xA=</dsig:DigestValue>
+        <dsig:DigestValue>0RHLPosfQRYFePGZRCtZv+N9ECQ=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TiledSharp.dll" size="113152">
-      <assemblyIdentity name="TiledSharp" version="1.0.5628.42136" publicKeyToken="C762323518B87139" language="neutral" processorArchitecture="msil" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="RunAndGun.exe" size="82880">
+      <assemblyIdentity name="RunAndGun" version="1.0.0.0" publicKeyToken="464768A099146558" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>bXkmtgXdA26BaXbLK2h3eFrxvKs=</dsig:DigestValue>
+        <dsig:DigestValue>J4pEi840D27GqIasTqHWJ2AJPzc=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="Content\Music\Contra - Jungle Theme.wma" size="4353707">
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SharpDX.dll" size="558080">
+      <assemblyIdentity name="SharpDX" version="2.6.3.0" publicKeyToken="B4DCF0F35E5521F1" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>DufLYqyjJURU2gruMk30kYkw0TY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SharpDX.DirectInput.dll" size="155136">
+      <assemblyIdentity name="SharpDX.DirectInput" version="2.6.3.0" publicKeyToken="B4DCF0F35E5521F1" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>yWRoG1eZyTB4g2CIUF4czyQXuM4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TiledSharp.dll" size="111104">
+      <assemblyIdentity name="TiledSharp" version="1.0.5783.39481" publicKeyToken="F0C69ABA1A4EE0E2" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>7T9W+ctn015Lh0czSbi6ZdoKVrs=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Content\Music\Contra - Jungle Theme.wma" size="4353709">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>46tJYnq7LV3SswhakXnGptZ67/Q=</dsig:DigestValue>
+      <dsig:DigestValue>3T6pfCc4m9C0gIEOudLh2WIuSmk=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Content\Music\Contra - Jungle Theme.xnb" size="139">
@@ -131,16 +167,16 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>ETJxK7G3F3E+2tMupt+gsCXcJyc=</dsig:DigestValue>
+      <dsig:DigestValue>HaCqkod5Ze8JI9f4cwberyzNB4E=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Content\Music\fanfare.wma" size="130251">
+  <file name="Content\Music\fanfare.wma" size="130253">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>iRtv8Be+BemeGMnbMWV9Ng49P7Y=</dsig:DigestValue>
+      <dsig:DigestValue>CpchN1jSrnpCj5jsJYQ74Tcdodw=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Content\Music\fanfare.xnb" size="125">
@@ -395,13 +431,22 @@
       <dsig:DigestValue>pqj5W0Ul98auBq9KqIjcP5W4KP0=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Content\Sprites\Bosses\boss1backlayer.xnb" size="1414">
+  <file name="Content\Sprites\Bosses\boss1backlayer.xnb" size="1428">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>4vUV9KTj5obX6TyRgELMkttjEP8=</dsig:DigestValue>
+      <dsig:DigestValue>67TiYJnxnVNFpuoCttlVmyB5yk8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Sprites\Bosses\boss1bomber.xnb" size="508">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>enAS4CxRRXr8kxHGqZy6QNy+yzE=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Content\Sprites\Bosses\boss1frontlayer.xnb" size="1008">
@@ -429,6 +474,15 @@
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
       <dsig:DigestValue>3cN2cOwkS2RHZJcDuNXPTIXxwpc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Sprites\Enemies\cannon.xnb" size="1148">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>0P5VFWAgGgkF+UD+V1knjdy74pY=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Content\Sprites\Enemies\capsule.xnb" size="336">
@@ -512,13 +566,13 @@
       <dsig:DigestValue>8RX5IQcYb8cMWwV6BGxd21nX1Vo=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Content\Sprites\Enemies\Sniper.xnb" size="452">
+  <file name="Content\Sprites\Enemies\Sniper.xnb" size="856">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>Wo0WHRJWy74ShvJp6p+6o7BlcPU=</dsig:DigestValue>
+      <dsig:DigestValue>2oxN0DbgjTgg9lshNh/YjxjPpRs=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Content\Sprites\Enemies\Turret.xnb" size="1726">
@@ -555,6 +609,15 @@
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
       <dsig:DigestValue>qIIx+raBLSrdSVBYECbkRitG5xg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Sprites\PlayerLifeIcon.xnb" size="272">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>rm3wu/7hQw0FO+Ld1Z/JSPWnbP4=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Content\Sprites\Projectiles\basicbullet.xnb" size="223">
@@ -629,6 +692,15 @@
       <dsig:DigestValue>GX2jhydIox854guXp9dfU0LwXRs=</dsig:DigestValue>
     </hash>
   </file>
+  <file name="Content\StageData\boss1paneldestroyed.xnb" size="794">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>4NrvOBJl5SVenRrK5B6PzRWbNO4=</dsig:DigestValue>
+    </hash>
+  </file>
   <file name="Content\StageData\Level1Tileset.xnb" size="4992">
     <hash>
       <dsig:Transforms>
@@ -647,13 +719,13 @@
       <dsig:DigestValue>Xj+WTYiONbnfPWqzo3ivAsyN4uI=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="ContraVania\Music\Level1VampireKiller.wma" size="4344759">
+  <file name="ContraVania\Music\Level1VampireKiller.wma" size="4344761">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>6XiMfosE6zWazW2tEdyAvLxHmSc=</dsig:DigestValue>
+      <dsig:DigestValue>POSzS8St/k48Vl/jEupUfgcSYwo=</dsig:DigestValue>
     </hash>
   </file>
   <file name="ContraVania\Music\Level1VampireKiller.xnb" size="137">
@@ -737,31 +809,31 @@
       <dsig:DigestValue>bHalrIH3KxqbZ0tijyauOjIxS3c=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="LevelMaps\Castlevania1-1-1.tmx" size="4563">
+  <file name="LevelMaps\Castlevania1-1-1.tmx" size="4627">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>X85cUgEmMudmfFie7R/RPiC5t/I=</dsig:DigestValue>
+      <dsig:DigestValue>4C81RzN73X39WLfQICNHVHmxY2E=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="LevelMaps\Castlevania1-1-2.tmx" size="8151">
+  <file name="LevelMaps\Castlevania1-1-2.tmx" size="8216">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>b2RRq60CghOQ3vZeWq2rF8sn+xY=</dsig:DigestValue>
+      <dsig:DigestValue>6OSgrcMMKuaJLuxbVMbZQFdkiTg=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="LevelMaps\Contra1-1Jungle.tmx" size="14038">
+  <file name="LevelMaps\Contra1-1Jungle.tmx" size="15950">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>gx9kxwAlg+pJUdanWPHePOPzVps=</dsig:DigestValue>
+      <dsig:DigestValue>cVVLnLXzt8wRxG6IvP1RuEf5CzY=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Resources\Game.ico" size="4286">
@@ -782,6 +854,15 @@
       <dsig:DigestValue>diNvdcDpDtGEMuMQIHpkKK3qVHc=</dsig:DigestValue>
     </hash>
   </file>
+  <file name="RunAndGun.exe.config" size="1097">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>rA57lZkgSrK91ZNLECKV6VjbzmM=</dsig:DigestValue>
+    </hash>
+  </file>
   <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
     <application>
       <!-- A list of all Windows versions that this application is designed to work with. 
@@ -796,4 +877,4 @@
       <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}"/>-->
     </application>
   </compatibility>
-<publisherIdentity name="CN=FUSROHDAH\jim.comiskey" issuerKeyHash="b178fdb13a239f6e783f60614dd66ddb1d777b75" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>PE4KRl+rMrnhLHsCisHH+ceyv9k=</DigestValue></Reference></SignedInfo><SignatureValue>vY2NBz4zs//9m87hkb3BwzBhB9mQwBXgVKyJjeq9xyP0rmI/9DM6kfgmC8Vxsp3FKtYHAgTgRSH5V38lSdbxWJCDpLuiAUwfJyH7V8KdTFMc9seQMGO5zWzAT1xeDxvtzDpPUNqsCUXfrHODknALeEjt+lFdT3slc/v4UbYzeZo=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>52/BDCXd4na+YTgvSykuFMXnKvQyMM91ybn08o1z/KnKTB/NmGf1n9EbL6BThFAPdboM7PQ2tfNFPs+lDS8WP7qGJ6AJPrUpvS9kAr2yrP/Rp5DCfvyPoIRQQayWK+v2hf4K5HMQ7YE+FTmwl1whVJb37jTR8NQvwdpnfpnjUHk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="d9bfb2c7f9c7c18a027b2ce1b932ab5f460a4e3c" Description="" Url=""><as:assemblyIdentity name="RunAndGun.exe" version="1.0.0.36" publicKeyToken="f334a2e222759331" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=FUSROHDAH\jim.comiskey</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>D0nJCsEulXr3Rbu1MmCuRKKBq5o=</DigestValue></Reference></SignedInfo><SignatureValue>Y5LZBXHGQ77RsoNS8XI/4dI1nKTGNerVjHxO4nIbgCcE7pyM7Qn1vcBoyTdeljdxMnBrj0krZXDWMcA9HONQqe6XMRN4gNx/nmuGjFL3i1SULAF3zDu5ptZkJIPW7TNJN7nU2HGTQcM9dTdMnUz23SobyNJ2yPMgX4APB/jniFE=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>52/BDCXd4na+YTgvSykuFMXnKvQyMM91ybn08o1z/KnKTB/NmGf1n9EbL6BThFAPdboM7PQ2tfNFPs+lDS8WP7qGJ6AJPrUpvS9kAr2yrP/Rp5DCfvyPoIRQQayWK+v2hf4K5HMQ7YE+FTmwl1whVJb37jTR8NQvwdpnfpnjUHk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB8TCCAVqgAwIBAgIQSVCIZUgtJb1GxPd0dl5c9jANBgkqhkiG9w0BAQUFADA3MTUwMwYDVQQDHiwARgBVAFMAUgBPAEgARABBAEgAXABqAGkAbQAuAGMAbwBtAGkAcwBrAGUAeTAeFw0xNTA1MzEwMTE2MDlaFw0xNjA1MzAwNzE2MDlaMDcxNTAzBgNVBAMeLABGAFUAUwBSAE8ASABEAEEASABcAGoAaQBtAC4AYwBvAG0AaQBzAGsAZQB5MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDnb8EMJd3idr5hOC9LKS4Uxecq9DIwz3XJufTyjXP8qcpMH82YZ/Wf0RsvoFOEUA91ugzs9Da180U+z6UNLxY/uoYnoAk+tSm9L2QCvbKs/9GnkMJ+/I+ghFBBrJYr6/aF/grkcxDtgT4VObCXXCFUlvfuNNHw1C/B2md+meNQeQIDAQABMA0GCSqGSIb3DQEBBQUAA4GBAK+pZLCNNlBeC9PKyFCGYuLjKLTLbN8H8uKePeVJUnEnCLByvFkeRHHy0dikvqmwU/lbiYpoa7KTePzBWatwLPr+nl9FTRwasCQiVzgbll+iiJYENgwSOYEXV34cB0sKdiKZF+kYQJTrgm5UHxB4OakoT8JIJGtEKXg63Y8fW6Ut</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
+<publisherIdentity name="CN=DESKTOP-2L76SPM\jimco" issuerKeyHash="9b1e6b09d3ccc6a092de7ca10d0280f79a82e7c3" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>NO7gm9a4KmByy3NPyFLcfX80a1k=</DigestValue></Reference></SignedInfo><SignatureValue>l4BIcqmoYaAmhx7vnR7/6MkRTg+6mNFNeaeqbiDCumxyXxNj96guaieN/JPERPC5abqxDK1LKdh1mxieuyXhU4PNAQkqP0lqFP6yJO94GKOxBg0EFXBb9tPvARlj8md1lNBHZ0i8cGXwyd16anpuij/wTbiOOmLGwQY2tphQdJ4=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>6TkRhR9Uf2esnrcKzHy689RFpzpe+8Z6HZYn1PEe0DWUJBzQUroIqniFmAjU2ZLUKaQGpOvmjjoe/jXUNIyEFNgVpK/IHZeJNWGW58iX46/NC49lytWivpQttiq891HfHpQXiOU8L2gZgMbLIIjdEtUAPuGEGRcmd5XruY2DBrc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="596b347f7ddc52c84f73cb72602ab8d69be0ee34" Description="" Url=""><as:assemblyIdentity name="RunAndGun.exe" version="1.0.0.36" publicKeyToken="0abf08fbf96dc7ef" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-2L76SPM\jimco</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>gMJNVjsyuS6Yds096oT5Lm2BOpY=</DigestValue></Reference></SignedInfo><SignatureValue>imCOXOjFXBcHUTiRpRbaIZSE4rzTrxntEKOvphWRhgq21dMMfj/DC2Zu9+CTlQC/srqO5nslNLiYPOWMA+Z3DIMicGkw5EORGCXFq7xhC/cMS3xyVakysxqbW9EwVyRSjRksT5UpobL925V5ksnfPjbekqhQgpgS4ec9Qz0Xg2s=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>6TkRhR9Uf2esnrcKzHy689RFpzpe+8Z6HZYn1PEe0DWUJBzQUroIqniFmAjU2ZLUKaQGpOvmjjoe/jXUNIyEFNgVpK/IHZeJNWGW58iX46/NC49lytWivpQttiq891HfHpQXiOU8L2gZgMbLIIjdEtUAPuGEGRcmd5XruY2DBrc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQLRexc8bFGq9AkQOG3DOg1zANBgkqhkiG9w0BAQUFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtADIATAA3ADYAUwBQAE0AXABqAGkAbQBjAG8wHhcNMTUxMTAyMDM1NDQzWhcNMTYxMTAxMDk1NDQzWjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtADIATAA3ADYAUwBQAE0AXABqAGkAbQBjAG8wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAOk5EYUfVH9nrJ63Csx8uvPURac6XvvGeh2WJ9TxHtA1lCQc0FK6CKp4hZgI1NmS1CmkBqTr5o46Hv411DSMhBTYFaSvyB2XiTVhlufIl+OvzQuPZcrVor6ULbYqvPdR3x6UF4jlPC9oGYDGyyCI3RLVAD7hhBkXJneV67mNgwa3AgMBAAEwDQYJKoZIhvcNAQEFBQADgYEA4x4B0Bei/zsZhHv/uTCMMBQ/Tvs9N4WcFEOkeQZGi6iCHzD6PQTWu21gt0HZV7QNYYRKJ1b93sxrQCpN6tXIZErilRpHfIJeyYEL+7h69n5LRGECJq7XJ0GIN3MQ5ztPXZaemDu7dOsciTNOM0ZLN4yPR6xNGsydzlJiO60mDYM=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
