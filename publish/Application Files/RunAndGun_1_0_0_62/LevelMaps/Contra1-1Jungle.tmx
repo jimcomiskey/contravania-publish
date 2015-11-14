@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+TEST<?xml version="1.0" encoding="UTF-8"?>
 <map version="1.0" orientation="orthogonal" renderorder="right-down" width="108" height="8" tilewidth="32" tileheight="32" backgroundcolor="#ffffff" nextobjectid="59">
  <tileset firstgid="1" name="Level1Tileset" tilewidth="32" tileheight="32" tilecount="42">
   <image source="../../RunAndGunContent/StageData/Level1Tileset.png" trans="ffffff" width="192" height="224"/>

@@ -1,3 +1,3 @@
-mage -sign "Application Files\RunAndGun_1_0_0_61\RunAndGun.exe.manifest" -CertFile "c:\git\contravania\runandgun\runandgun\ContravaniaSignature.pfx" -Password final7
-mage -u RunAndGun.application -Version 1.0.0.61 -AppManifest "Application Files\RunAndGun_1_0_0_61\RunAndGun.exe.manifest" -Processor x86 -CertFile "c:\git\contravania\runandgun\runandgun\ContravaniaSignature.pfx" -Password final7
-mage -u "Application Files\RunAndGun_1_0_0_61\RunAndGun.application" -Version 1.0.0.61 -AppManifest "Application Files\RunAndGun_1_0_0_61\RunAndGun.exe.manifest" -Processor x86 -CertFile "c:\git\contravania\runandgun\runandgun\ContravaniaSignature.pfx" -Password final7
+mage -sign "Application Files\RunAndGun_1_0_0_62\RunAndGun.exe.manifest" -CertFile "c:\git\contravania\runandgun\runandgun\ContravaniaSignature.pfx" -Password final7
+REM mage -u RunAndGun.application -Version 1.0.0.61 -AppManifest "Application Files\RunAndGun_1_0_0_61\RunAndGun.exe.manifest" -Processor x86 -CertFile "c:\git\contravania\runandgun\runandgun\ContravaniaSignature.pfx" -Password final7
+REM mage -u "Application Files\RunAndGun_1_0_0_61\RunAndGun.application" -Version 1.0.0.61 -AppManifest "Application Files\RunAndGun_1_0_0_61\RunAndGun.exe.manifest" -Processor x86 -CertFile "c:\git\contravania\runandgun\runandgun\ContravaniaSignature.pfx" -Password final7
